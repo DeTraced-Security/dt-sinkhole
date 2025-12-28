@@ -14,11 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
-          src="https://detraced-sinkhole.goatcounter.com/count.js"
-          data-goatcounter="https://detraced-sinkhole.goatcounter.com/count"
-          strategy="afterInteractive"
-        />
+        <script data-goatcounter="https://detraced-sinkhole.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
       </head>
       <body>{children}</body>
     </html>
